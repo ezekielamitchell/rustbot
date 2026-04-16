@@ -1,0 +1,90 @@
+# Rust
+/rust/target/
+/target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.env
+.venv
+.rustbot_env/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Type checking & linting
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Robotics / hardware artifacts
+# Compiled ROS / build artifacts (if applicable)
+devel/
+logs/
+*.bag
+*.bag.active
+
+# Model weights & large binary assets
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.h5
+*.bin
+*.weights
+
+# Recorded video / captures
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+*.log
+*.tmp
+*.bak
