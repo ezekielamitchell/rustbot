@@ -37,10 +37,10 @@ The first version prioritizes:
 +-------------+---------------+                                 +--------------+--------------+
               |                                                                |
               v                                                                v
-        Camera Sensor                                                   Motor Driver
-                                                                            |
-                                                                            v
-                                                                  Differential Drive Base
+        Camera Sensor                                                     Motor Driver
+                                                                               |
+                                                                               v
+                                                                     Differential Drive Base
 ```
 
 The architecture is intentionally asymmetric:
